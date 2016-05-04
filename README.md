@@ -6,7 +6,7 @@ Twitter type timeline feed app
 - let you post messages
 - sync messages
 - polls new messages
-- 
+
 ScreenShots:
 https://drive.google.com/open?id=0B25JcpedG0JveENPWi1lbjZXaU0
 

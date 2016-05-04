@@ -1,7 +1,8 @@
 # TwitterApp
 Twitter type timeline feed app
 
-- based on marko gargenta book
+- based on Twitter university course reference
+- using twitter api (yamba) 
 - built a timeline app
 - let you post messages
 - sync messages

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/timeline_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatarView"
+        android:text="username" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/timeline_time"
+        android:text="time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+         />
+
+    <TextView
+        android:id="@+id/timeline_tweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tweet"
+        android:layout_toRightOf="@id/avatarView"
+        android:layout_below="@id/timeline_handle" />
+
+</RelativeLayout>

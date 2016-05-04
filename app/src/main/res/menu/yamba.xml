@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_tweet"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/title_tweet" />
+
+
+    <item android:id="@+id/menu_timeline"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="@string/title_timeline" />
+
+    <item android:id="@+id/menu_contacts"
+        app:showAsAction="always|withText"
+        android:icon="@android:drawable/stat_sys_phone_call"
+        android:title="@string/title_contacts" />
+
+
+    <item android:id="@+id/menu_prefs"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/title_prefs" />
+
+    <item android:id="@+id/menu_about"
+        app:showAsAction="never"
+        android:title="@string/title_about" />
+
+</menu>
